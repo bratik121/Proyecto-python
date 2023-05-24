@@ -21,7 +21,7 @@ def start():
         # Menu de archivos
         if (option1 == 1):
             option2 = 0
-            while (option2 != 10):
+            while (option2 != 2):
                 print("1. Cargar archivo")
                 print("2. Volver")
                 print("3. Salir")

@@ -28,9 +28,9 @@ El Proyecto debe tener cierta funcionalidad implementada que le permita cumplir 
 9. Historigrama de Participantes por grupo Etario
 	- El formato del histograma debe ser el siguiente:
 	```
-	Junior (x):   |****************************************
-    	Senior (y):   |******************************************************
-    	Master (z):   |**********************************************
+	Junior (x): |****************************************
+    	Senior (y): |******************************************************
+    	Master (z): |**********************************************
 	```	
     Donde `x`, `y` y `z` representan a la cantidad de participantes por grupo etario.
 

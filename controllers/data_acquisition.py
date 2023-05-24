@@ -8,6 +8,9 @@ def read_file(filename):
         df.columns = participants.columns
         print("Archivo cargado correctamente")
         print()
+        print("Presione enter para continuar...")
+        input()
+        print()
         return df
     except:
         print("Error al leer el archivo")

@@ -47,6 +47,10 @@ def start():
                 else:
                     print("Ingrese una opcion valida")
         elif (option1 == 2):
+            if (data is None):
+                print("Debe cargar un archivo primero")
+                print()
+                continue
             option2 = 0
             while (option2 != 10):
                 print("1. Cantidad total de participantes")
